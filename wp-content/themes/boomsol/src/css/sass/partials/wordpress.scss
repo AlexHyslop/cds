@@ -3,7 +3,17 @@
  * ---
  * Wordpess core classes
  */
+p {
+  font-family: 'Muli', sans-serif; 
+  color: #feffff;
+  font-size: 14px;
+  font-weight: 400;
 
+}
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
 
 .sticky {}
 
@@ -60,4 +70,233 @@
   padding: 0 $padding-horizontal-base $padding-vertical-base;
   font-size: $font-size-base;
   line-height: $line-height-base;
+}
+
+.topSection {
+  top:0;
+  position: absolute;
+  height:auto;
+  width:100%;
+
+  clear:both;
+  padding:0;
+}
+
+.sliderTextRow {
+  width:100%;
+  height:200px;
+  margin-top: 500px;
+  
+
+}
+h1 {
+  font-family: Track, Helvetica, Arial, sans-serif;
+  font-size: 50px !important;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #1d2a63;
+
+
+}
+h3 {
+  font-family: Track, Helvetica, Arial, sans-serif;
+  color: #1d2a63;
+}
+
+.sliderTextContainer {
+  width:50%;
+  margin-left: 25%;
+  padding:40px;
+  border-radius: 20px;
+  z-index: 5;
+  height:320px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #888;
+  position: absolute;
+  font-family: Muli;
+
+}
+
+.leftimg img {
+  margin-top: 30px;
+}
+
+.containerL {
+  height:100%;
+  
+  padding-top: 30px;
+}
+
+.containerL2 {
+  height:100%;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 400px;
+ 
+}
+.containerL2 p {
+  color: #252525;
+  font-family: Muli;
+
+
+}
+.containerR{
+  padding:30px;
+  padding-top: 100px;
+  padding-right: 400px;
+  height:100%;
+}
+.containerR2{
+  padding:30px;
+  
+  padding-right: 400px;
+  height:100%; 
+}
+.containerR2 p {
+  color: #252525;
+  font-family: Muli;
+
+
+}
+.containerLg {
+  padding-top: 100px;
+  height:200px;
+ 
+}
+.rowContainer {
+  width:100%;
+  height:100px;
+  border-style: solid;
+  border-color: black;
+}
+
+
+.tab {
+  border-style: solid;
+  border-color: black;
+ width:50%;
+ height:50px;
+}
+
+.container1 {
+  margin-top: 200px;
+  background-color: black;
+  background-image: url("img/bg1.jpg");
+   background-attachment: fixed;
+    background-position: center;
+ background-size: 100% 100%;
+  height:400px;
+}
+.containerL2 img {
+  
+}
+.container2 { 
+margin-top: 70px;
+  
+  background-image: url("img/container2bg.png");
+   background-attachment: fixed;
+    background-position: center;
+ background-size: 100% 100%;
+
+
+  height:400px;
+}
+.container3 { 
+margin-top: 70px;
+  
+  background-image: url("img/container3bg.png");
+   background-attachment: fixed;
+    background-position: center;
+ background-size: 100% 100%;
+
+
+  height:400px;
+}
+
+.textTitle h3 {
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.formSub {
+  font-family: Track, Helvetica, Arial !important;
+  font-size: 24px !important;
+  font-weight:500 !important;
+  display: inline-block;
+}
+.contactContainer {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding:40px;
+  background-color: white;
+  height: 550px;
+
+}
+.contactLContainer { 
+  
+}
+.contactRContainer {
+    
+}
+.contactL {
+
+
+}
+
+.contactR {
+  
+}
+.contactRow {
+  background-image: url("img/Layer 44.png");
+
+  margin-top: 10%;
+}
+
+#social {
+  margin-top: 20%;
+}
+.textarea {
+  margin-top: 20px;
+}
+.logoRow {
+  margin-top: 40px;
+  background-color: white;
+  height:auto;
+  margin-bottom: 40px;
+}
+
+.logoContainer {
+  height:100px;
+  padding:1%;
+ 
+}
+
+.socialContainer {
+  margin-bottom: 30px;
+}
+
+.card-header {
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  height:70px;
+  box-shadow: 0px 5px 16.74px 1.26px rgba(15, 14, 14, 0.21);
+  background-color: white;
+  margin-bottom: 20px;
+  padding-top: 5px;
+}
+.card-block {
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 0px 5px 16.74px 1.26px rgba(15, 14, 14, 0.21);
+  padding:40px;
+  background-color: white;
+}
+
+
+
+.tabsRow {
+  margin-top: 40px;
 }

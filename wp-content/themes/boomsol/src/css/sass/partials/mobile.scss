@@ -1,0 +1,202 @@
+/**
+ * partials/mobile
+ * ---
+ */
+
+@media only screen and (max-width : 1600px) {
+	.sliderTextRow {
+		margin-top: 420px !important;
+	}
+	.containerR {
+		padding-top: 50px !important;
+		padding-right: 300px !important;
+	}
+}
+
+@media only screen and (max-width : 1400px) {
+	.sliderTextRow {
+		margin-top: 350px !important;
+	}
+}
+@media only screen and (max-width : 1300px) {
+	.sliderTextRow {
+		margin-top: 250px !important;
+	}
+	.sliderTextContainer {
+		width: 70%;
+		margin-left: 15%;
+	}
+	.containerR {
+		padding-top: 50px !important;
+		padding-right: 200px !important;
+	}
+	.containerL2 {
+		padding-left: 200px !important;
+	}
+	.containerR2 {
+		padding-right: 200px !important;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.sliderTextRow {
+		margin-top: 250px !important;
+	}
+	.sliderTextContainer {
+		width: 70%;
+	}
+	.containerLg {
+		height: auto;
+	}
+	.containerR {
+		padding-top: 50px !important;
+		padding-right: 100px !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.contactContainer {
+		height:770px !important;
+	}
+	.containerLg {
+		padding-top:0 !important;
+		margin-bottom: 40px;
+	}
+	.textTitle h3 {
+		padding: 0 !important
+	}
+	.containerL2 {
+		padding:0 !important;
+	}
+	.containerR2 {
+		padding: 0 !important;
+	}
+	.containerR {
+		padding-right: 0px !important;
+	}
+	.container1 {
+		height:auto !important;
+	}
+	.container2 {
+		height:auto !important;
+	}
+	.container3 {
+		height:auto !important;
+	}
+	.navbarmain {
+		height:70px !important;
+		
+		box-shadow: 0px 0px 0px !important;
+	}
+	.navbar-default {
+		width:100% !important;
+		height:100px !important;
+		margin: 0 !important;
+		background-image: none !important;
+	}
+	.navbarmain a {
+		font-size: 3vw !important;
+		margin-top: 15px !important;
+		text-align: center !important;
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+	.logodiv {
+		height:70px !important;
+		z-index: 11 !important;
+		box-shadow: 0px 0px 0px 0px !important;
+	}
+	.logodiv img {
+		height: 100%;
+		float: left !important;
+
+	}
+	.navbar-toggle {
+    display: block !important;
+}
+	.navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+            background-color: #1d2a63 !important;
+		    width: 100% !important;
+		    position: absolute !important;
+		    
+		    margin: 0 !important;
+		    top: 70px !important;
+		    z-index: 100 !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    nav.navbar-nav ul {
+    	position: absolute !important;
+    	top: 0 !important;
+    	left: 0 !important;
+    	width: 100% !important;
+    }
+    .navbar-nav li { 
+    	    margin: 0 !important;
+		    padding: 0 !important;
+		    border: 0 !important;
+		    font-size: 100% !important;
+		    font: inherit !important;
+		    vertical-align: baseline !important;
+    }
+
+        .collapsing {
+            overflow: hidden!important;
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+            /*margin: 7.5px -15px;*/
+            padding:20px;
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            line-height: 40px !important;
+        }
+        .navbar-text {
+            float: none;
+            margin: 15px 0;
+        }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.sliderTextRow {
+		margin-top: 180px !important;
+	}
+}
+@media only screen and (max-width : 650px) {
+	.sliderTextContainer {
+		width:100% !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+		.sliderTextRow {
+		margin-top: 100px !important;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
